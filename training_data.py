@@ -74,3 +74,5 @@ y_train = np.array([
     'Circle', 'Circle', 'Circle', 'Circle',
     'Rectangle', 'Rectangle', 'Rectangle', 'Rectangle'
 ])
+
+y_train = np.array([str(label) for label in y_train])
